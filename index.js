@@ -5,4 +5,5 @@ async function random() {
   const status = json.status;
   return { image, status };
 }
-module.exports = { random };
+const amy = { random};
+module.exports = { amy };
