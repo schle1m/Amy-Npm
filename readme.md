@@ -15,7 +15,7 @@ npm install https://github.com/schle1m/Amy-Npm
 ## Usage
 
 ```js
-const { amy } = require("Amy-Npm");
+const { amy } = require("amy");
 
 const { image, status } = await amy.random();
 ```
