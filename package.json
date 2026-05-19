@@ -1,0 +1,19 @@
+{
+  "name": "amy",
+  "version": "1.0.0",
+  "description": "a simple yet powerfull npm package to interact with Amy Api and more",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schle1m/Amy-Npm.git"
+  },
+  "keywords": [
+    "Amy"
+  ],
+  "author": "schle1m",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schle1m/Amy-Npm/issues"
+  },
+  "homepage": "https://github.com/schle1m/Amy-Npm#readme"
+}
