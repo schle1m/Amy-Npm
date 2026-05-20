@@ -8,5 +8,11 @@ async function random() {
 async function test() {
   return "Succes" 
 }
-const amy = { random, test};
+async function info(key) {
+  const data = await fetch("https://amy-api.onrender.com/api/info")
+  const json = await data.json()
+  if (key) return json[key]
+  return json
+}
+const amy = { random, test, info};
 module.exports = { amy };
