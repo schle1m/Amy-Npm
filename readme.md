@@ -25,3 +25,4 @@ const { image, status } = await amy.random();
 | Method | Returns | Description |
 |--------|---------|-------------|
 | `amy.random()` | `{ image, status }` | Fetches a random image |
+| `amy.info(parms)` | `{ info }` | Fetches amy info |
